@@ -1,0 +1,1 @@
+![](./screenshots/05_course_outline/2022-06-25-19-49-46.png)
