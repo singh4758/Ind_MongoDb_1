@@ -16,3 +16,13 @@ single document is surrounded by these curly braces.
 Now in title it also says bson instead of json,
 well behind the scenes on the server, mongodb converts your json data which is this format you
 see here to a binary version of it which can basically be stored and can queried more efficiently,
+
+![](./screenshots/01_intro/2022-06-25-18-10-49.png)
+
+There was one thing which I found kind of hard to wrap my head around. Mongodb is a so-called noSQL
+solution because it's basically following an opposite concept or philosophy than all the SQL based databases do. Instead of normalizing data which means storing it, distribute it across multiple tables where every table has a clear schema and then using a lot of relations, instead
+of doing that, mongodb goes for storing data together in a document and it also doesn't force a schema on you.
+
+This is where the efficiency is derived from. Since data is stored together, when your application is fetching data, it doesn't need to reach out to collection A, merge it with
+collection B, merge it with collection C, instead it goes to collection A then mongodb has a very efficient querying mechanism behind the scenes so that it can go through all the data very fast when looking for a specific document, so this will be super fast and then it finds that document and it's done, It doesn't need to do any merging most of the time. So this is really where the speed, the performance and flexibility comes from.
+
