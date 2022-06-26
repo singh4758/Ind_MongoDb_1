@@ -16,4 +16,6 @@ The value of $set then is a document with curly braces and we need to close anot
 of curly braces for our surrounding curly braces now marked in purple and now what this does is it tells mongodb hey for this document you're finding, please set this value and if this value did exist, it would change it.
 
 ![](./screenshots/09_finding_updating_and_inserting/2022-06-26-10-40-39.png)
-here with set operator you will update or add key in document
+here with set operator you will update or add key in document.
+
+![](./screenshots/09_finding_updating_and_inserting/2022-06-26-10-43-32.png)
