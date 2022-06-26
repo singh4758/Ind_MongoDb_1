@@ -1,7 +1,7 @@
-![](./screenshots/04_mongodb+clients/2022-06-25-19-30-55.png)
+![](./screenshots/03_mongodb+clients/2022-06-25-19-30-55.png)
 Now the mongodb server will actually not directly write the data into files but talk to a so-called storage engine which you could replace with your favorite storage engine but the default one called Wired Tiger is actually an awesome storage engine which allows you to efficiently work with your data, store it efficiently and so on. So the mongodb basically gets the query from your driver or from your shell and then just knows I want to insert something and basically forwards that information after doing some other things to the storage engine and the storage engine then stores it in files in the end.
 
-![](./screenshots/04_mongodb+clients/2022-06-25-19-35-14.png)
+![](./screenshots/03_mongodb+clients/2022-06-25-19-35-14.png)
 Now if we have a closer look at that data layer with the server, the storage engine and the file system, then we actually have to differentiate between writing and reading from files which is a bit slower and writing and reading from memory which is faster. The storage engine actually does both,
 it loads a chunk of data into memory and manages that such that the data you often use is in memory of
 possible, it also writes data in memory at first so that this is really fast
