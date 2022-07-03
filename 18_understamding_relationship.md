@@ -1,0 +1,1 @@
+![](./screenshots/18_understamding_relationship/2022-07-03-09-49-14.png)
