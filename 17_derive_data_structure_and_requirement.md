@@ -1,0 +1,1 @@
+![](./screenshots/17_derive_data_structure_and_requirement/2022-07-03-09-45-10.png)
