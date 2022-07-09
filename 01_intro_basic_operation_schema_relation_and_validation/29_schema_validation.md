@@ -87,3 +87,5 @@ db.runCommand({
 });
 
 here validationAction is warn and it will show in mongodb log when you send something wring
+
+![](./screenshots/29_schema_validation/2022-07-09-17-42-35.png)
